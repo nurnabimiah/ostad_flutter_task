@@ -17,7 +17,7 @@ class _MovieListState extends State<MovieList> {
     return Scaffold(
       appBar: AppBar(
         centerTitle: true,
-        title: Text('Movie List Page(task-3)'),
+        title: Text('Movie List(task-3)'),
       ),
       body: ListView.builder(
           itemCount: movies.length,
